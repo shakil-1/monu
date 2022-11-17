@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../img/01_HomePage.png'
 const Navbar = () => {
+  
     const menuitems = (
         <>
         <li><a>Home</a></li>
@@ -9,10 +10,13 @@ const Navbar = () => {
         <li><a> Services</a></li>
         <li><a>Team</a></li>
         <li><a>Clients</a></li>
+        <button className="border border-1 border-gray-500  text-gray-600 font-bold   rounded-2xl text-sm w-24 hover:border-blue-600 hover:border-2 ">
+                Hire Us
+              </button>
         </>
     )
     return (
-        <div class="navbar ">
+    <div class="navbar fixed top-0 z-10 ">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -30,9 +34,7 @@ const Navbar = () => {
     {menuitems}
     </ul>
   </div>
-  <div class="justify-center">
-    <a class="btn">Hire Us</a>
-  </div>
+  
 </div>
     );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../../Share/Footer';
+import Banner from '../Banner';
 import Card from '../Card';
 import CardPricing from '../CardPricing';
 import Contact from '../Contact';
@@ -14,6 +15,7 @@ import ImgSlider from './ImgSlider';
 const Home = () => {
     return (
         <div>
+           <Banner></Banner>
            <About></About>
            <Contact></Contact>
            <Card></Card>
