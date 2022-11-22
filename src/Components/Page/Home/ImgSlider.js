@@ -12,13 +12,19 @@ const ImgSlider = () => {
       slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: true,
+      arrows: false,
       autoplaySpeed: 2000,
       pauseOnHover: true
     }
+
+
+    
     return (
-        <div className=' bg-white'>
-        <Slider className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5  py-14  mx-auto' {...settings}>
-        <div>
+        <div className=' bg-white py-14'>
+        <Slider className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5   mx-auto' {...settings}>
+      
+
+            <div>
             <img className="mx-auto" src={logo1} alt=""/>
            </div>
            <div >
@@ -36,8 +42,10 @@ const ImgSlider = () => {
            <div>
             <img className="mx-auto" src={logo1} alt=""/>
            </div>
+
+        
         </Slider>
-            </div>
+     </div>
       
     );
 };

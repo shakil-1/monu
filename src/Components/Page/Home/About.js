@@ -2,9 +2,10 @@ import React from "react";
 import laptop from "../../../img/laptop.png";
 import { HiPencilAlt } from "react-icons/hi";
 const About = () => {
+  
   return (
     <div className="pt-40 relative">
-      <div className="absolute  left-0  md:bottom-[500px] lg:bottom-[500px] xl:bottom-[500px]   w-full">
+      <div className="absolute  left-0  md:bottom-[500px] lg:bottom-[500px] xl:bottom-[570px]   w-full">
         <div className="bg-[#6a74fc] w-11/12   rounded-xl py-3  mx-auto ">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 ">
             <div className="text-center mx-auto sm:border-r-none lg:border-r-[1px]  border-gray-400 p-5 text-white">
